@@ -1,0 +1,3 @@
+include ':charging'
+include ':app'
+rootProject.name = "BDapps Charging Library"
