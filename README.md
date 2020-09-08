@@ -35,11 +35,11 @@ Step 3. Create ChargingInstance.java in your app
     
     public class ChargingInstance {
         private static AdsLib adsLib;
-        private static String APP_ID = ""; //BDAPPS APP_ID
-        private static String APP_PASSWORD = ""; 
-        private static String APP_PATH = ""; //http://appstore.bdappszone.com
-        private static String MSG_TEXT = ""; //BDAPPS keyword
-        private static String WINDOW_TEXT = ""; //অ্যাড রিমুভ করতে আপনার রবি অথবা এয়ারটেল সিম থেকে "+MSG_TEXT+" লিখে এসএমএস করুন ২১২১৩ নাম্বারে । চার্জ প্রতি দিন ২ টাকা
+        public static String APP_ID = ""; //BDAPPS APP_ID
+        public static String APP_PASSWORD = ""; 
+        public static String APP_PATH = ""; //http://appstore.bdappszone.com
+        public static String MSG_TEXT = ""; //BDAPPS keyword
+        public static String WINDOW_TEXT = ""; //অ্যাড রিমুভ করতে আপনার রবি অথবা এয়ারটেল সিম থেকে "+MSG_TEXT+" লিখে এসএমএস করুন ২১২১৩ নাম্বারে । চার্জ প্রতি দিন ২ টাকা
 
         public static synchronized AdsLib getAdsLib() {
             if (adsLib == null) {
